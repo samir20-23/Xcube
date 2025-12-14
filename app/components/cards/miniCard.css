@@ -1,0 +1,219 @@
+.miniMain-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.miniCard {
+    max-width: 440px;
+    min-width: 440px;
+
+    height: 350px;
+    position: relative;
+}
+
+.miniCard .box4 {
+    border-top: 14.7px solid var(--main_1);
+    /* border-right: 15px solid red; */
+    border-top-right-radius: 65px;
+    width: 61px;
+    height: 80px;
+    position: absolute;
+    top: -41px;
+    right: -6.2px;
+    transform: rotate(87.5deg);
+}
+
+.miniCard .box4::after {
+    content: "";
+    border-left: 14.7px solid var(--main_1);
+    border-bottom-left-radius: 65px;
+    width: 61px;
+    height: 80px;
+    position: absolute;
+    top: -21px;
+    right: 7.3px;
+    transform: rotate(145.5deg);
+}
+
+
+.miniCard .box5 {
+    border-top: 14.7px solid var(--main_1);
+    border-top-right-radius: 71px;
+    width: 53px;
+    height: 62px;
+    position: absolute;
+    bottom: -22px;
+    left: -37px;
+    transform: rotate(132.5deg);
+}
+
+.miniCard .box6 {
+    background-color: var(--main_1);
+    width: 576px;
+    height: 22px;
+    position: absolute;
+    top: 170px;
+    left: -60px;
+    transform: rotate(141.5deg);
+}
+
+
+.miniCard .box7 {
+
+
+    background-color: #111;
+    width: 416px;
+    height: 68px;
+    position: absolute;
+    top: 172px;
+    left: 60px;
+    transform: rotate(141.5deg);
+    border-radius: 40px;
+
+}
+
+.miniCard .box8 {
+
+    background-color: #111;
+    border-radius: 40px;
+    width: 288px;
+    height: 68px;
+    position: absolute;
+    top: 172px;
+    left: 263px;
+    transform: rotate(90deg);
+
+}
+
+.miniCard .box9 {
+
+
+    background-color: #111;
+    border-radius: 40px;
+    width: 343px;
+    height: 68px;
+    position: absolute;
+    bottom: 0;
+    left: 98px;
+    transform: rotate(0);
+
+}
+
+.miniCard .box10 {
+
+
+    background-color: #111;
+    border-radius: 40px;
+    width: 190px;
+    height: 141px;
+    position: absolute;
+    bottom: 33px;
+    left: 221px;
+    word-break: auto-phrase;
+    transform: rotate(-27deg);
+}
+
+.miniCard .box11 {
+    border-top: 19px solid var(--main_1);
+    border-right: 15px solid var(--main_1);
+    border-top-right-radius: 49px;
+    width: 62px;
+    height: 55px;
+    position: absolute;
+    top: 37px;
+    right: -7px;
+    transform: rotate(-23deg);
+}
+
+.miniCard .box12 {
+    border-top: 19px solid var(--main_1);
+    border-right: 17px solid var(--main_1);
+    border-top-right-radius: 50px;
+    width: 65px;
+    height: 62px;
+    position: absolute;
+    bottom: -8px;
+    left: 76px;
+    transform: rotate(-157deg);
+}
+
+.miniCard .box13 {
+    background-color: var(--main_1);
+    width: 65px;
+    height: 49px;
+    position: absolute;
+    bottom: -17px;
+    left: 33px;
+    transform: rotate(-37deg);
+}
+
+.miniCard .box14 {
+    background-color: var(--main_1);
+    width: 34px;
+    height: 49px;
+    position: absolute;
+    top: 15px;
+    right: -11px;
+    transform: rotate(19deg);
+}
+
+.miniCard .imgMiniCard {
+    width: 183px;
+    height: 183px;
+    position: absolute;
+    bottom: -10px;
+    left: 125px;
+    transform: rotate(-73deg);
+    animation: imgMiniCard 8s alternate-reverse infinite;
+}
+
+
+@keyframes imgMiniCard {
+    0% {
+        transform: rotate(-73deg) translate(-12px, -12px);
+
+    }
+
+    50% {
+        transform: rotate(-75deg) translate(-16px, -16px);
+
+    }
+
+    100% {
+        transform: rotate(-73deg) translate(-12px, -12px);
+
+    }
+}
+
+.miniCard .textRightMiniCard {
+    color: #ffffff5e;
+    font-size: 12px;
+    position: absolute;
+    bottom: 213px;
+    right: -32px;
+    transform: rotate(90deg);
+
+}
+
+.miniCard .titleMiniCard {
+    color: #ffffff87;
+    font-size: 18px;
+    position: absolute;
+    bottom: 117px;
+    right: 60px;
+}
+
+.miniCard .textMiniCard {
+    color: #ffffff87;
+    font-size: 12px;
+    position: absolute;
+    bottom: 58px;
+    right: 28px;
+
+
+}

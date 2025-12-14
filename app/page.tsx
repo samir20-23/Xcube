@@ -1,18 +1,20 @@
 
 import Search from "./components/Search"
 import BrandIcon from "./components/brandIcon"
+import FeatureTitle from "./components/featureTitle"
+// cards 
+import MiniCard from "./components/cards/miniCard"
 export default function App() {
   return (
     <div className="main">
       <div className="featur-card">
-        <BrandIcon />
-        <Search />
-        <p className="feature-description">
-          Compact. <br />
-          Powerful. <br />
-          Reliable. <br />
-        </p>
-        <div className="mini-card">
+        <div>
+          <BrandIcon />
+          <Search />
+        </div>
+        <FeatureTitle />
+        <div className="miniMain-card">
+          <MiniCard />
         </div>
       </div>
       <div className="right-card">

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--main_1);
+}
+
 :root {
     --main_1: #b6b6b6;
     --main_2: black;
@@ -13,22 +17,26 @@
 
 .main {
     background-color: var(--main_1);
-    width: 100%; 
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-wrap: nowrap;
     gap: var(--gap);
     height: 720px;
 }
- 
+
 
 .featur-card {
-    width: 100%; 
+    width: 100%;
     background-image: url('/xcube_1.png');
     background-size: cover;
     border-radius: var(--borderSize);
     border: none;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 
 
@@ -61,15 +69,3 @@
 }
 
 /*  */
- 
-.feature-description {
-    font-family: 'Lucida Console', Monaco, monospace;
-    font-size: 20px;
-    font-weight: 900;
-    color: #ffffff;
-    letter-spacing: 1.5px;
-    word-spacing: 20px;
-    line-height: 1.2;
-    text-decoration: none;
-    text-transform: none;
-}
