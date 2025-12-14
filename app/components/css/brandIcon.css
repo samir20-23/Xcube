@@ -1,0 +1,15 @@
+.featur-card .brand-icon {
+    border-radius: 200px;
+    border: none;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    color: white;
+    border: 15px solid var(--main_1);
+    position: absolute;
+    top: -15;
+    left: -15;
+} 
+.brand-icon img {
+    width: 100%;
+}
