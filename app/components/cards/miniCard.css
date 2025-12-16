@@ -62,9 +62,7 @@
     transform: rotate(141.5deg);
 }
 
-
 .miniCard .box7 {
-
 
     background-color: #111;
     width: 416px;
@@ -74,11 +72,9 @@
     left: 60px;
     transform: rotate(141.5deg);
     border-radius: 40px;
-
 }
 
 .miniCard .box8 {
-
     background-color: #111;
     border-radius: 40px;
     width: 288px;
@@ -87,11 +83,9 @@
     top: 172px;
     left: 263px;
     transform: rotate(90deg);
-
 }
 
 .miniCard .box9 {
-
 
     background-color: #111;
     border-radius: 40px;
@@ -105,7 +99,6 @@
 }
 
 .miniCard .box10 {
-
 
     background-color: #111;
     border-radius: 40px;

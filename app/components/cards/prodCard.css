@@ -1,0 +1,21 @@
+.right-card .productT-card {
+    width: 100%;
+    max-height: 342px;
+    min-height: 342px;
+
+    background-image: url('/dmooster_1.png');
+    background-size: cover;
+    border-radius: var(--borderSize);
+}
+
+.right-card .productB-card {
+    width: 100%;
+    max-height: 342px; 
+    min-height: 342px;
+
+    background-image: url('/xcube_3.png');
+    background-size: cover;
+    border-radius: var(--borderSize);
+}
+
+/*  */

@@ -2,6 +2,8 @@
 import Search from "./components/Search"
 import BrandIcon from "./components/brandIcon"
 import FeatureTitle from "./components/featureTitle"
+import ProductCardT from "./components/cards/productCardT"
+import ProductCardB from "./components/cards/productCardB"
 // cards 
 import MiniCard from "./components/cards/miniCard"
 export default function App() {
@@ -18,14 +20,11 @@ export default function App() {
         </div>
       </div>
       <div className="right-card">
-        <div className="productT-card">
+        <ProductCardT />
+        <ProductCardB />
 
-        </div>
-        <div className="productB-card">
-
-        </div>
       </div>
 
-    </div>
+    </div >
   )
 }

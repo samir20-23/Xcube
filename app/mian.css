@@ -42,30 +42,9 @@ body {
 
 .main .right-card {
     width: 60%;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     gap: var(--gap);
 
 }
-
-.right-card .productT-card {
-    width: 100%;
-    max-height: 342px;
-    min-height: 342px;
-
-    background-image: url('/dmooster_1.png');
-    background-size: cover;
-    border-radius: var(--borderSize);
-}
-
-.right-card .productB-card {
-    width: 100%;
-    max-height: 342px;
-    min-height: 342px;
-
-    background-image: url('/xcube_3.png');
-    background-size: cover;
-    border-radius: var(--borderSize);
-}
-
-/*  */
