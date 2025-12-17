@@ -1,21 +1,140 @@
+:root {
+    --main_1: #b6b6b6;
+    --main_2: black;
+    --borderSize: 30px;
+    --gap: 15px
+}
+
+/* T */
 .right-card .productT-card {
     width: 100%;
     max-height: 342px;
     min-height: 342px;
-
     background-image: url('/dmooster_1.png');
     background-size: cover;
     border-radius: var(--borderSize);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
 }
 
+.productT-card .sectionNav {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.action {
+    width: 140px;
+    position: relative;
+    top: 10px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 70px;
+    border: 15px solid var(--main_1);
+    background-color: var(--main_1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.sectionNav .actionBox {
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 200px;
+    padding: 2px;
+    position: relative;
+}
+
+.actionBox i {
+    color: rgba(255, 255, 255, 0.847);
+    background-color: #292929;
+    padding: 10px 12px 10px 12px;
+    border-radius: 300px;
+
+
+}
+
+.sectionNav .box16,
+.box17 {
+    position: absolute;
+    border-top: 12px solid var(--main_1);
+    border-left: 12px solid var(--main_1);
+    border-top-left-radius: 42px;
+    flex-wrap: nowrap;
+
+    display: flex;
+}
+
+.box16 {
+    width: 99px;
+    height: 37px;
+    z-index: 22;
+    top: -13px;
+    left: 112.3px;
+}
+
+.box17 {
+    width: 37px;
+    height: 93px;
+    top: -41px;
+    left: -60%;
+    transform: rotate(90deg);
+
+}
+
+.productT-card .sectionContent {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.61);
+    filter: blur(0.4px);
+    border-radius: 54px;
+    box-shadow: 0 -20px 50px -12px rgb(0, 0, 0);
+    position: relative;
+
+
+}
+
+.productT-card .sectionContent span {
+    font-size: 16px;
+
+}
+
+.productT-card .sectionContent h4 {
+    font-size: 12px;
+    opacity: 0.5;
+    filter: blur(0.2);
+}
+
+
+
+
+
+
+
+
+/* B */
 .right-card .productB-card {
     width: 100%;
-    max-height: 342px; 
+    max-height: 342px;
     min-height: 342px;
-
     background-image: url('/xcube_3.png');
     background-size: cover;
     border-radius: var(--borderSize);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
-
-/*  */

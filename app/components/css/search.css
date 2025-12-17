@@ -11,7 +11,7 @@
     border: 15px solid var(--main_1);
     display: flex;
     flex-wrap: nowrap;
-    background-color: var(--main_1);
+    background-color: var(--main_1); 
 
 }
 
