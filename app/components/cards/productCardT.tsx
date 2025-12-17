@@ -35,7 +35,7 @@ export default function productCardT() {
             </div>
             <div className="sectionContent">
                 <p>
-                    {Text} <br />
+                    {Text}
                     <h4>
                         {smallText}
                     </h4>
